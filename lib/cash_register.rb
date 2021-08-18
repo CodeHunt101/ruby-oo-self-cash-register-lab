@@ -17,7 +17,6 @@ class CashRegister
       i-=1
     end
     @transaction_tracker << {:title=>title, :totalItem=>price*quantity}
-    puts (@transaction_tracker.inspect)
   end
 
   def apply_discount
